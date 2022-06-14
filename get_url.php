@@ -2,7 +2,7 @@
 	session_start();
 
 	if(!isset($_SESSION['usuario'])){
-		header('Location: index.php?erro=1');
+		header('Location: index.html?erro=1');
 	}
 
 	require_once('db.class.php');
@@ -30,4 +30,6 @@
 	} else {
 		echo 'Erro na consulta de urls no banco de dados.';
 	}
+
+	
 ?>

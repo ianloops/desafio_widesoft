@@ -18,7 +18,7 @@
 	} else{
 		$dados_usuario = mysqli_fetch_array($resultado_id);
 		if(!isset($dados_usuario['usuario'])){
-			header('Location: index.php?erro=1');
+			header('Location: index.html?erro=1');
 		} else {
 			$_SESSION['id'] = $dados_usuario['id'];
 			$_SESSION['usuario'] = $dados_usuario['usuario'];
