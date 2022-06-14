@@ -76,15 +76,6 @@
 		<!-- Static navbar -->
 	    <nav class="navbar navbar-default navbar-static-top">
 	      <div class="container">
-	        <div class="navbar-header">
-	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-	            <span class="sr-only">Toggle navigation</span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	          </button>
-	        </div>
-	        
 	        <div id="navbar" class="navbar-collapse collapse">
 	          <ul class="nav navbar-nav navbar-right">
 	            <li><a href="sair.php">Sair</a></li>
@@ -115,7 +106,7 @@
 	    				<form id="form_url" class="input-group">
 	    					<input type="url" required class="form-control" placeholder="Insira a URL" maxlength="140" id="texto_url" name="texto_url">
 	    					<span class="input-group-btn">
-	    						<button class="btn btn-default" id="btn_url" type="button">url</button>
+	    						<button class="btn btn-default" id="btn_url" type="button">Rastrear</button>
 	    					</span>
 	    				</form>
 	    			</div>
@@ -126,7 +117,6 @@
 
 	    		</div>
 			</div>
-			
 		</div>
 
 
